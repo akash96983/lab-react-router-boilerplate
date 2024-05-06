@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#whole-Container{
+min-height: 100vh;
+text-align: center;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+
+ul>li{
+  font-size: larger;
+}
+
+h1{
+  font-size: 70px;
+  font-family: sans-serif;
+  margin: 20px;
+}
